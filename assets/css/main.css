@@ -2414,6 +2414,24 @@ input, select, textarea {
 				top: 0;
 				width: 2.5em;
 			}
+	
+    .feature-icons {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .feature-icons li {
+        margin: 10px; 
+    }
+
+    .feature-icons svg {
+        display: block;
+        width: 100px;
+        height: 50px;
+    }			
 
 /* Icons */
 
